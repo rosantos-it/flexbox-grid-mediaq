@@ -1,0 +1,106 @@
+body {
+    background-color: #1F2023;
+}
+
+.titulo {
+    color: white;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.itens {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.itensLink:link {
+    color: white;
+}
+
+.itensLink:visited {
+    color: white;
+}
+
+.itensLink:hover {
+    color: #DAE200;
+}
+
+.paiUm {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.filhoUm {
+    width: 100px;
+    height: 100px;
+    border: solid 1px red;
+    border-style: dashed;
+    margin: 3px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.filhoUm:nth-child(1) {
+    background-color: lightseagreen;
+}
+
+.filhoUm:nth-child(2) {
+    background-color: lightcoral;
+}
+
+.filhoUm:nth-child(3) {
+    background-color: lightgreen;
+}
+
+.filhoUm:nth-child(4) {
+    background-color: lightpink;
+}
+
+.filhoUm:nth-child(5) {
+    background-color: lightsalmon;
+}
+
+.filhoUm:nth-child(6) {
+    background-color: lightskyblue;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.esquerda {
+    width: 25%;
+    background-color: orange;
+}
+
+.direita {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: lightblue;
+}
+
+.content {
+    width: 75%;
+    height: 80%;
+    background-color: lightcoral;
+}
+
+.aside {
+    width: 25%;
+    height: 80%;
+    background-color: lightsalmon;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    background-color: lightpink;
+}
