@@ -1,3 +1,7 @@
+body {
+    background-color: #1F2023;
+}
+
 #grade {
     display: grid;
 
@@ -55,10 +59,6 @@ aside {
 footer {
     grid-area: footer;
     background-color:cornflowerblue;
-}
-
-body {
-    background-color: #1F2023;
 }
 
 
