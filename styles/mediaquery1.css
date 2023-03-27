@@ -10,8 +10,8 @@ body {
         "box2 box2 box2"
         "box3 box3 box3";
 
-    grid-template-areas: 100px 100px 100px;
-    grid-template-rows: 200px 500px 200px;
+    grid-template-areas: 1fr 1fr 1fr;
+    grid-template-rows: 200px 335px 200px;
     gap: 1rem;
 
     height: 100vh;
@@ -39,8 +39,8 @@ body {
             "box1 box1 box1 box1"
             "box2 box2 box3 box3";
 
-        grid-template-areas: 100px 100px 100px;
-        grid-template-rows: 250px 700px 300px;
+        grid-template-areas: 1fr 1fr 1fr;
+        grid-template-rows: 250px 695px 300px;
         grid-template-columns: 600px auto 15px;
         gap: 1rem;
 
